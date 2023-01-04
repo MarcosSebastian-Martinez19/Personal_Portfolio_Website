@@ -1,6 +1,8 @@
 import React from "react";
 import "./Experience.css";
 import { BsPatchCheckFill } from "react-icons/bs";
+import { FaHtml5, FaCss3Alt, FaBootstrap, FaSass, FaReact, FaNodeJs, FaPhp, FaPython, FaNpm, FaGitAlt, FaGithub } from "react-icons/fa"
+import { SiJavascript, SiJquery, SiMysql, SiMongodb, SiNetlify } from "react-icons/si"
 
 export const Experience = () => {
     return (
@@ -12,45 +14,45 @@ export const Experience = () => {
                     <h3>Front End Development</h3>
                     <div className="experience__content">
                         <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
                             <div>
+                            <FaHtml5 className="experience__details-icon" />
                             <h4>HTML</h4>
-                            <small className="text-light">Experienced</small>    
                             </div>
                         </article>
                         <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
                             <div>
+                            <FaCss3Alt className="experience__details-icon" />
                             <h4>CSS</h4>
-                            <small className="text-light">Intermediated</small>
                             </div>
                         </article>
                         <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
                             <div>
+                            <SiJavascript className="experience__details-icon" />
                             <h4>JavaScript</h4>
-                            <small className="text-light">Experienced</small>
                             </div>
                         </article>
                         <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
                             <div>
+                            <FaBootstrap className="experience__details-icon" />
                             <h4>Bootstrap</h4>
-                            <small className="text-light">Experienced</small>
                             </div>
                         </article>
                         <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
                             <div>
+                            <FaSass className="experience__details-icon" />
                             <h4>SASS</h4>
-                            <small className="text-light">Experienced</small>
                             </div>
                         </article>
                         <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
                             <div>
+                            <FaReact className="experience__details-icon" />
                             <h4>ReactJS</h4>
-                            <small className="text-light">Intermediated</small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <div>
+                            <SiJquery className="experience__details-icon" />
+                            <h4>jQuery</h4>
                             </div>
                         </article>
                     </div>
@@ -60,38 +62,33 @@ export const Experience = () => {
                 <h3>Back End Development</h3>
                     <div className="experience__content">
                         <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
                             <div>
+                            <FaNodeJs className="experience__details-icon" />
                             <h4>NodeJS</h4>
-                            <small className="text-light">Experienced</small>
                             </div>
                         </article>
                         <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
                             <div>
+                            <FaPhp className="experience__details-icon" />
                             <h4>PHP</h4>
-                            <small className="text-light">Intermediated</small>
                             </div>
                         </article>
                         <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
                             <div>
+                            <FaPython className="experience__details-icon" />
                             <h4>Python</h4>
-                            <small className="text-light">Experienced</small>
                             </div>
                         </article>
                         <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
                             <div>
+                            <SiMongodb className="experience__details-icon" />
                             <h4>MongoDB</h4>
-                            <small className="text-light">Experienced</small>
                             </div>
                         </article>
                         <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-icon" />
                             <div>
+                            <SiMysql className="experience__details-icon" />
                             <h4>MySQL</h4>
-                            <small className="text-light">Experienced</small>
                             </div>
                         </article>
                     </div>

@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "image": "https://screenshot-proxy.netlify.app/f_jpg,w_336/https://d33wubrfki0l68.cloudfront.net/63b44a64238dde18bc34aaf1/screenshot_2023-01-03-15-32-36-0000.png",
+        "title": "Personal Portfolio Website",
+        "urlGitHub": "https://github.com/MarcosSebastian-Martinez19/Personal_Portfolio_Website",
+        "urlLiveDemo": "https://personal-portfolio-mm.netlify.app/"
+    },
+    {
+        "id": 2,
+        "image": "https://screenshot-proxy.netlify.app/f_jpg,w_336/https://d33wubrfki0l68.cloudfront.net/63b44a64238dde18bc34aaf1/screenshot_2023-01-03-15-32-36-0000.png",
+        "title": "Personal Portfolio Website",
+        "urlGitHub": "https://github.com/MarcosSebastian-Martinez19/Personal_Portfolio_Website",
+        "urlLiveDemo": "https://personal-portfolio-mm.netlify.app/"
+    },
+    {
+        "id": 3,
+        "image": "https://screenshot-proxy.netlify.app/f_jpg,w_336/https://d33wubrfki0l68.cloudfront.net/63b44a64238dde18bc34aaf1/screenshot_2023-01-03-15-32-36-0000.png",
+        "title": "Personal Portfolio Website",
+        "urlGitHub": "https://github.com/MarcosSebastian-Martinez19/Personal_Portfolio_Website",
+        "urlLiveDemo": "https://personal-portfolio-mm.netlify.app/"
+    },
+    {
+        "id": 4,
+        "image": "https://screenshot-proxy.netlify.app/f_jpg,w_336/https://d33wubrfki0l68.cloudfront.net/63b44a64238dde18bc34aaf1/screenshot_2023-01-03-15-32-36-0000.png",
+        "title": "Personal Portfolio Website",
+        "urlGitHub": "https://github.com/MarcosSebastian-Martinez19/Personal_Portfolio_Website",
+        "urlLiveDemo": "https://personal-portfolio-mm.netlify.app/"
+    },
+    {
+        "id": 5,
+        "image": "https://screenshot-proxy.netlify.app/f_jpg,w_336/https://d33wubrfki0l68.cloudfront.net/63b44a64238dde18bc34aaf1/screenshot_2023-01-03-15-32-36-0000.png",
+        "title": "Personal Portfolio Website",
+        "urlGitHub": "https://github.com/MarcosSebastian-Martinez19/Personal_Portfolio_Website",
+        "urlLiveDemo": "https://personal-portfolio-mm.netlify.app/"
+    },
+    {
+        "id": 6,
+        "image": "https://screenshot-proxy.netlify.app/f_jpg,w_336/https://d33wubrfki0l68.cloudfront.net/63b44a64238dde18bc34aaf1/screenshot_2023-01-03-15-32-36-0000.png",
+        "title": "Personal Portfolio Website",
+        "urlGitHub": "https://github.com/MarcosSebastian-Martinez19/Personal_Portfolio_Website",
+        "urlLiveDemo": "https://personal-portfolio-mm.netlify.app/"
+    }
+]

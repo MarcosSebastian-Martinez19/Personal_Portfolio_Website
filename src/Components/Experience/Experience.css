@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    place-content: center;
 }
 
 .experience__container > div {
@@ -34,13 +35,16 @@
 
 .experience__details {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
     color: var(--color-white);
 }
 
 .experience__details-icon {
     margin-top: 6px;
-    color: var(--color-primary)
+    color: var(--color-primary);
+    font-size: 3rem;
 }
 
 /* -------------------------------- MEDIA QUERIES (MEDIUM DEVICES) -------------------------------- */
@@ -68,11 +72,12 @@
   
   @media screen and (max-width: 600px) {
     .experience__container {
+        grid-template-columns: 1fr;
         gap: 1rem;
     }
 
     .experience__container > div {
         width: 100%;
-        padding: 2rem 1rem;
+        padding: 2rem .3rem;
     }
   }
