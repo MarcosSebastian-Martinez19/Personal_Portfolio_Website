@@ -1,14 +1,12 @@
 import React from "react";
 import "./Experience.css";
-import { BsPatchCheckFill } from "react-icons/bs";
-import { FaHtml5, FaCss3Alt, FaBootstrap, FaSass, FaReact, FaNodeJs, FaPhp, FaPython, FaNpm, FaGitAlt, FaGithub } from "react-icons/fa"
-import { SiJavascript, SiJquery, SiMysql, SiMongodb, SiNetlify } from "react-icons/si"
+import { FaHtml5, FaCss3Alt, FaBootstrap, FaSass, FaReact, FaNodeJs, FaPhp, FaPython, FaNpm, FaGitAlt, FaGithub } from "react-icons/fa";
+import { SiJavascript, SiJquery, SiMysql, SiMongodb, SiNetlify } from "react-icons/si";
 
 export const Experience = () => {
     return (
         <section id="experience">
-            <h5>What Skills I Have</h5>
-            <h2>My Experience</h2>
+            <h2>Mis Habilidades</h2>
             <div className="container experience__container">
                 <div className="experience__frontend">
                     <h3>Front End Development</h3>

@@ -10,12 +10,17 @@
 }
 
 :root {
-  --color-bg: #004ba8;
-  --color-bg-variant: #254f81;
-  --color-primary: #16171b;
-  --color-primary-variant: #24272b;
   --color-white: #fff;
-  --color-light: #3e78b9;
+  /* --color-primary: #3d0000;
+  --color-primary-variant: rgba(255, 0, 0, .5);
+  --color-light: #FA9494;
+  --color-bg: #f00;
+  --color-bg-variant: rgba(255, 100, 50, .5); */
+  --color-primary: #616f39;
+  --color-primary-variant: rgba(70, 120, 60, .5);
+  --color-light: #8B9A46;
+  --color-bg: #000;
+  --color-bg-variant: rgba(139, 200, 65, .9);
 
   --transition: all 400ms ease;
 
@@ -35,11 +40,8 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   background-color: var(--color-bg);
-  color: var(--color-text);
+  color: var(--color-white);
   line-height: 1.7;
-  background-image: url(./assets/fondo2.svg);
-  background-repeat: no-repea;
-  background-size: cover;
 }
 
 /* -------------------------------- GENERAL STYLES -------------------------------- */
@@ -68,11 +70,11 @@ section {
 section > h2,
 section > h5 {
   text-align: center;
-  color: var(--color-light);
+  color: var(--color-primary);
 }
 
 section > h2 {
-  color: var(--color-primary);
+  color: var(--color-white);
   margin-bottom: 3rem;
 }
 
@@ -81,19 +83,19 @@ section > h2 {
 }
 
 a {
-  color: var(--color-primary);
+  color: var(--color-white);
   transition: var(--transition);
 }
 
 a:hover {
-  color: var(--color-white);
+  color: var(--color-light);
 }
 
 .btn {
   width: max-content;
   display: inline-block;
-  color: var(--color-primary);
-  padding: .75rem 1.2rem;
+  color: var(--color-white);
+  padding: .75rem 1rem;
   border-radius: .4rem;
   cursor: pointer;
   border: 1px solid var(--color-primary);

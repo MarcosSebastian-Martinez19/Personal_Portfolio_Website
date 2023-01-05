@@ -1,8 +1,7 @@
 import React from 'react';
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { MdOutlineAlternateEmail } from "react-icons/md";
-
-import "./Header.css"
+import "./Header.css";
 
 export const HeaderSocials = () => {
   return (

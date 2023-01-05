@@ -1,44 +1,65 @@
 [
     {
         "id": 1,
-        "image": "https://screenshot-proxy.netlify.app/f_jpg,w_336/https://d33wubrfki0l68.cloudfront.net/63b44a64238dde18bc34aaf1/screenshot_2023-01-03-15-32-36-0000.png",
+        "image": "https://screenshot-proxy.netlify.app/f_jpg,w_336/https://d33wubrfki0l68.cloudfront.net/63b4f23f8fdc240009925940/screenshot_2023-01-04-03-28-40-0000.png",
         "title": "Personal Portfolio Website",
         "urlGitHub": "https://github.com/MarcosSebastian-Martinez19/Personal_Portfolio_Website",
         "urlLiveDemo": "https://personal-portfolio-mm.netlify.app/"
     },
     {
         "id": 2,
-        "image": "https://screenshot-proxy.netlify.app/f_jpg,w_336/https://d33wubrfki0l68.cloudfront.net/63b44a64238dde18bc34aaf1/screenshot_2023-01-03-15-32-36-0000.png",
-        "title": "Personal Portfolio Website",
-        "urlGitHub": "https://github.com/MarcosSebastian-Martinez19/Personal_Portfolio_Website",
-        "urlLiveDemo": "https://personal-portfolio-mm.netlify.app/"
+        "image": "https://screenshot-proxy.netlify.app/f_jpg,w_336/https://d33wubrfki0l68.cloudfront.net/63ab94405c0bc20008249660/screenshot_2022-12-28-00-57-01-0000.png",
+        "title": "Movie App ReactJS",
+        "urlGitHub": "https://github.com/MarcosSebastian-Martinez19/MovieApp-React",
+        "urlLiveDemo": "https://movie-app-reactjs-mm.netlify.app/"
     },
     {
         "id": 3,
-        "image": "https://screenshot-proxy.netlify.app/f_jpg,w_336/https://d33wubrfki0l68.cloudfront.net/63b44a64238dde18bc34aaf1/screenshot_2023-01-03-15-32-36-0000.png",
-        "title": "Personal Portfolio Website",
-        "urlGitHub": "https://github.com/MarcosSebastian-Martinez19/Personal_Portfolio_Website",
-        "urlLiveDemo": "https://personal-portfolio-mm.netlify.app/"
+        "image": "https://screenshot-proxy.netlify.app/f_jpg,w_336/https://d33wubrfki0l68.cloudfront.net/63a36514bc88656037eee50b/screenshot_2022-12-21-19-57-32-0000.png",
+        "title": "Weather App ReactJS",
+        "urlGitHub": "https://github.com/MarcosSebastian-Martinez19/WeatherApp_ReactJS-API",
+        "urlLiveDemo": "https://weather-app-api-react-mm.netlify.app/"
     },
     {
         "id": 4,
-        "image": "https://screenshot-proxy.netlify.app/f_jpg,w_336/https://d33wubrfki0l68.cloudfront.net/63b44a64238dde18bc34aaf1/screenshot_2023-01-03-15-32-36-0000.png",
-        "title": "Personal Portfolio Website",
-        "urlGitHub": "https://github.com/MarcosSebastian-Martinez19/Personal_Portfolio_Website",
-        "urlLiveDemo": "https://personal-portfolio-mm.netlify.app/"
-    },
+        "image": "https://screenshot-proxy.netlify.app/f_jpg,w_336/https://d33wubrfki0l68.cloudfront.net/639092f2680e720cb34938d7/screenshot_2022-12-07-13-19-54-0000.png",
+        "title": "Proyecto Final Digitalers",
+        "urlGitHub": "https://github.com/MarcosSebastian-Martinez19/Proyecto-Final-Digitalers",
+        "urlLiveDemo": "https://proyecto-final-digitalers-msm.netlify.app/"
+    },    
     {
         "id": 5,
-        "image": "https://screenshot-proxy.netlify.app/f_jpg,w_336/https://d33wubrfki0l68.cloudfront.net/63b44a64238dde18bc34aaf1/screenshot_2023-01-03-15-32-36-0000.png",
-        "title": "Personal Portfolio Website",
-        "urlGitHub": "https://github.com/MarcosSebastian-Martinez19/Personal_Portfolio_Website",
-        "urlLiveDemo": "https://personal-portfolio-mm.netlify.app/"
+        "image": "https://screenshot-proxy.netlify.app/f_jpg,w_336/https://d33wubrfki0l68.cloudfront.net/6390927cf35ef81421171aa7/screenshot_2022-12-07-13-17-57-0000.png",
+        "title": "Marcador de Puntos",
+        "urlGitHub": "https://github.com/MarcosSebastian-Martinez19/MarcadorPuntos",
+        "urlLiveDemo": "https://marcador-puntos.netlify.app/"
     },
     {
         "id": 6,
-        "image": "https://screenshot-proxy.netlify.app/f_jpg,w_336/https://d33wubrfki0l68.cloudfront.net/63b44a64238dde18bc34aaf1/screenshot_2023-01-03-15-32-36-0000.png",
-        "title": "Personal Portfolio Website",
-        "urlGitHub": "https://github.com/MarcosSebastian-Martinez19/Personal_Portfolio_Website",
-        "urlLiveDemo": "https://personal-portfolio-mm.netlify.app/"
+        "image": "https://screenshot-proxy.netlify.app/f_jpg,w_336/https://d33wubrfki0l68.cloudfront.net/6390956f2d385e14f4636142/screenshot_2022-12-07-13-30-30-0000.png",
+        "title": "Twitter Clone",
+        "urlGitHub": "https://github.com/MarcosSebastian-Martinez19/Twitter",
+        "urlLiveDemo": "https://twitter-clone-mm.netlify.app/"
+    },
+    {
+        "id": 7,
+        "image": "https://screenshot-proxy.netlify.app/f_jpg,w_336/https://d33wubrfki0l68.cloudfront.net/639093bc3af8c50e13bfab7f/screenshot_2022-12-07-13-23-16-0000.png",
+        "title": "Restobar Website",
+        "urlGitHub": "https://github.com/MarcosSebastian-Martinez19/RestoBar",
+        "urlLiveDemo": "https://restobar-mm.netlify.app/"
+    },
+    {
+        "id": 8,
+        "image": "https://screenshot-proxy.netlify.app/f_jpg,w_336/https://d33wubrfki0l68.cloudfront.net/639090ec4b99cb118a949265/screenshot_2022-12-07-13-11-17-0000.png",
+        "title": "Image Slide Transition",
+        "urlGitHub": "https://github.com/MarcosSebastian-Martinez19/Image_Slide_Transition",
+        "urlLiveDemo": "https://image-slice-effect.netlify.app/"
+    },
+    {
+        "id": 9,
+        "image": "https://screenshot-proxy.netlify.app/f_jpg,w_336/https://d33wubrfki0l68.cloudfront.net/639090a5ccc0fc0d886e0df8/screenshot_2022-12-07-13-10-10-0000.png",
+        "title": "Google Clone",
+        "urlGitHub": "https://github.com/MarcosSebastian-Martinez19/Google",
+        "urlLiveDemo": "https://google-clone-mm.netlify.app/"
     }
 ]
