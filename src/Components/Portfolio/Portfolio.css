@@ -6,21 +6,17 @@
 }
 
 .portfolio__item {
-    background: var(--color-bg-variant);
+    background: transparent;
     padding: 1.3rem;
     border-radius: 2rem;
-    border: 1px solid transparent;
+    border: 1px solid var(--color-primary-variant);
     transition: var(--transition);
-}
-
-.portfolio__item:hover {
-    border-color: var(--color-primary-variant);
-    background: transparent;
 }
 
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
+    border: 2px solid var(--color-primary-variant);
 }
 
 .portfolio__item h3 {

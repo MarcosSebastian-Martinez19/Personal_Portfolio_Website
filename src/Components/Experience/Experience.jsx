@@ -5,7 +5,7 @@ import { SiJavascript, SiJquery, SiMysql, SiMongodb, SiNetlify } from "react-ico
 
 export const Experience = () => {
     return (
-        <section id="experience">
+        <section>
             <h2>Mis Habilidades</h2>
             <div className="container experience__container">
                 <div className="experience__frontend">
