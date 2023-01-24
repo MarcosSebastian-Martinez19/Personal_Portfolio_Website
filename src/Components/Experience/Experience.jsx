@@ -1,7 +1,7 @@
 import React from "react";
 import "./Experience.css";
 import { FaHtml5, FaCss3Alt, FaBootstrap, FaSass, FaReact, FaNodeJs, FaPhp, FaPython, FaNpm, FaGitAlt, FaGithub } from "react-icons/fa";
-import { SiJavascript, SiJquery, SiMysql, SiMongodb, SiNetlify } from "react-icons/si";
+import { SiJavascript, SiJquery, SiAngular, SiMysql, SiMongodb, SiNetlify } from "react-icons/si";
 
 export const Experience = () => {
     return (
@@ -49,6 +49,12 @@ export const Experience = () => {
                         </article>
                         <article className="experience__details">
                             <div>
+                            <SiAngular className="experience__details-icon" />
+                            <h4>Angular</h4>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <div>
                             <SiJquery className="experience__details-icon" />
                             <h4>jQuery</h4>
                             </div>
@@ -56,7 +62,7 @@ export const Experience = () => {
                     </div>
                 </div>
                 {/* END OF FRONT END */}
-                <div className="experience__backend">
+                {/* <div className="experience__backend">
                 <h3>Back End Development</h3>
                     <div className="experience__content">
                         <article className="experience__details">
@@ -90,7 +96,7 @@ export const Experience = () => {
                             </div>
                         </article>
                     </div>
-                </div>
+                </div> */}
             </div>
         </section>
     )

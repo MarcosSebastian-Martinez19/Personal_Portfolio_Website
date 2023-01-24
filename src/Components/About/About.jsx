@@ -22,7 +22,7 @@ export const About = () => {
                     <p>
                         Estudio la carrera de Ciencias de la Computación en la <a href="https://www.unc.edu.ar/">Universidad Nacional de Córdoba</a>.<br />
                         Soy un desarrollador front-end apasionado por la creación de nuevas interfaces de usuario, con una mente creativa dispuesta a ofrecer nuevas soluciones e ideas; poseo capacidad de aprendizaje rápido así como agilidad en las tareas asignadas.<br />
-                        Algunas tecnologías con las que disfruto trabajar incluyen HTML5, CSS3, JavaScript, Bootstrap 5, ReactJS, jQuery.
+                        Algunas tecnologías con las que disfruto trabajar incluyen HTML5, CSS3, JavaScript, Bootstrap 5, ReactJS, jQuery, Angular.
                     </p>
 
                     <CTA />
@@ -30,7 +30,7 @@ export const About = () => {
                 </div>
                 <div className="about__me">
                     <div className="about__me-image">
-                        <img src={profileIMG} alt="About Image" />
+                        <img src={profileIMG} alt="About Image"/>
                     </div>
                 </div>
             </div>
