@@ -2,9 +2,6 @@ import React from "react";
 import "./About.css";
 import profileIMG from "../../assets/about-profile.jpg";
 import { CTA } from "./CTA";
-// import { FaAward } from "react-icons/fa";
-// import { FiUsers } from "react-icons/fi";
-// import { VscFolderLibrary } from "react-icons/vsc";
 
 export const About = () => {
     return (
@@ -22,7 +19,7 @@ export const About = () => {
                     <p>
                         Estudio la carrera de Ciencias de la Computación en la <a href="https://www.unc.edu.ar/">Universidad Nacional de Córdoba</a>.<br />
                         Soy un desarrollador front-end apasionado por la creación de nuevas interfaces de usuario, con una mente creativa dispuesta a ofrecer nuevas soluciones e ideas; poseo capacidad de aprendizaje rápido así como agilidad en las tareas asignadas.<br />
-                        Algunas tecnologías con las que disfruto trabajar incluyen HTML5, CSS3, JavaScript, Bootstrap 5, ReactJS, jQuery, Angular.
+                        Algunas tecnologías con las que disfruto trabajar incluyen HTML5, CSS3, SASS, Bootstrap 5, JavaScript, TypeScript, React JS, Angular 12+, Angular Material.
                     </p>
 
                     <CTA />
@@ -30,7 +27,7 @@ export const About = () => {
                 </div>
                 <div className="about__me">
                     <div className="about__me-image">
-                        <img src={profileIMG} alt="About Image"/>
+                        <img src={profileIMG} alt="About_Image"/>
                     </div>
                 </div>
             </div>
