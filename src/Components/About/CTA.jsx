@@ -1,11 +1,12 @@
 import React from 'react';
 import CV from "../../assets/CV-MarcosMartinez-FrontEndDeveloper.pdf";
 import "./About.css";
+import { FiDownload } from "react-icons/fi"
 
 export const CTA = () => {
   return (
     <div className="cta">
-      <a href={CV} download className='btn'>Descargar CV</a>
+      <a href={CV} download className='btn'> <FiDownload /> Descargar CV</a>
     </div>
   )
 }

@@ -1,6 +1,8 @@
 import React from "react";
 import "./Portfolio.css";
 import Proyectos from "./Proyectos.json";
+import { FaGithub } from "react-icons/fa"
+import { SiNetlify } from "react-icons/si"
 
 
 export const Portfolio = () => (
@@ -16,8 +18,8 @@ export const Portfolio = () => (
                             </div>
                             <h3>{title}</h3>
                             <div className="portfolio__item-cta">
-                                <a href={urlGitHub} className="btn" target="_blank">GitHub</a>
-                                <a href={urlLiveDemo} className="btn btn-primary" target="_blank">Ver Demo</a>
+                                <a href={urlGitHub} className="btn" target="_blank"> <FaGithub /> GitHub</a>
+                                <a href={urlLiveDemo} className="btn btn-primary" target="_blank"> <SiNetlify /> Ver Demo</a>
                             </div>
                         </article>
                     )

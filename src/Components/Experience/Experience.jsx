@@ -1,7 +1,7 @@
 import React from "react";
 import "./Experience.css";
 import { FaHtml5, FaCss3Alt, FaBootstrap, FaSass, FaReact, FaNpm, FaGitAlt, FaGithub } from "react-icons/fa";
-import { SiJavascript, SiTypescript, SiAngular, SiNetlify, SiLinux } from "react-icons/si";
+import { SiJavascript, SiTypescript, SiAngular, SiNetlify, SiLinux, SiVisualstudiocode } from "react-icons/si";
 
 export const Experience = () => {
     return (
@@ -69,6 +69,12 @@ export const Experience = () => {
                             <div>
                             <FaGithub className="experience__details-icon" />
                             <h4>GitHub</h4>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <div>
+                            <SiVisualstudiocode className="experience__details-icon" />
+                            <h4>Visual Studio Code</h4>
                             </div>
                         </article>
                         <article className="experience__details">
