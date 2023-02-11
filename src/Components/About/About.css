@@ -3,6 +3,7 @@
     grid-template-columns: 50% 35%;
     gap: 15%;
     place-content: center;
+    align-items: center;
 }
 
 .about__me {
@@ -12,7 +13,6 @@
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
     place-items: center;
-    margin-top: 2.5rem;
 }
 
 .about__me-image {
@@ -71,11 +71,11 @@
     .about__content p {
         margin: 1rem 0 1.5rem;
     }
-  }
-  
+}
+
   /* -------------------------------- MEDIA QUERIES (SMALL DEVICES) -------------------------------- */
-  
-  @media screen and (max-width: 600px) {
+
+@media screen and (max-width: 600px) {
     .about__me {
         width: 65%;
         margin: 0 auto 3rem;
@@ -94,4 +94,4 @@
         font-size: 1rem;
         margin: 1.5rem 0;
     }
-  }
+}
