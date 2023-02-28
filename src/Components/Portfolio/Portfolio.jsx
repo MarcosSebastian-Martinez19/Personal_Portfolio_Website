@@ -3,12 +3,12 @@ import "./Portfolio.css";
 import Proyectos from "./Proyectos.json";
 import { FaGithub } from "react-icons/fa"
 import { SiNetlify } from "react-icons/si"
-import { Search } from "../Search/Search";
+import { Search } from "./Search/Search";
 
 export const Portfolio = () => {
     const [proyectos, setProyectos] = useState(Proyectos);
     const handleSearch = (e) => {
-        const q = e;
+        const q = e.toLowerCase();
         
         if(!!q) {
             const search = Proyectos.filter((proyecto) => {
@@ -27,14 +27,14 @@ export const Portfolio = () => {
         <h2>Portafolio</h2>
         <Search onSearch={handleSearch} />
         <div className="container__filtro">
-            <p>Html</p>
-            <p>Css</p>
-            <p>Scss</p>
-            <p>Bootstrap</p>
-            <p>JavaScript</p>
-            <p>TypeScript</p>
-            <p>React JS</p>
-            <p>Angular</p>
+            <button>Html</button>
+            <button>Css</button>
+            <button>Scss</button>
+            <button>Bootstrap</button>
+            <button>JavaScript</button>
+            <button>TypeScript</button>
+            <button>React JS</button>
+            <button>Angular</button>
         </div>
         <div className="container portfolio__container">
             {
