@@ -1,3 +1,23 @@
+.container__filtro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.container__filtro p {
+    width: max-content;
+    padding: 0 1rem;
+    border: 1px solid var(--color-primary-variant);
+    border-radius: 5px;
+}
+
+.container__filtro p:hover {
+    background-color: var(--color-primary);
+    cursor: pointer;
+}
+
 .portfolio__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

@@ -1,16 +1,44 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Portfolio.css";
 import Proyectos from "./Proyectos.json";
 import { FaGithub } from "react-icons/fa"
 import { SiNetlify } from "react-icons/si"
+import { Search } from "../Search/Search";
 
+export const Portfolio = () => {
+    const [proyectos, setProyectos] = useState(Proyectos);
+    const handleSearch = (e) => {
+        const q = e;
+        
+        if(!!q) {
+            const search = Proyectos.filter((proyecto) => {
+                return (
+                    proyecto.title.toLowerCase().includes(q)
+                )
+            });
+            setProyectos(search);
+        } else {
+            setProyectos(Proyectos);
+        }
+    }
 
-export const Portfolio = () => (
+    return (
     <section id="portfolio">
         <h2>Portafolio</h2>
+        <Search onSearch={handleSearch} />
+        <div className="container__filtro">
+            <p>Html</p>
+            <p>Css</p>
+            <p>Scss</p>
+            <p>Bootstrap</p>
+            <p>JavaScript</p>
+            <p>TypeScript</p>
+            <p>React JS</p>
+            <p>Angular</p>
+        </div>
         <div className="container portfolio__container">
             {
-                Proyectos.map(({ id, image, title, urlGitHub, urlLiveDemo }) => {
+                proyectos.map(({ id, image, title, urlGitHub, urlLiveDemo }) => {
                     return (
                         <article key={id} className="portfolio__item">
                             <div className="portfolio__item-image">
@@ -27,4 +55,5 @@ export const Portfolio = () => (
             }
         </div>
     </section>
-);
+)
+};
