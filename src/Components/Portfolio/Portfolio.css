@@ -1,3 +1,7 @@
+.result__container {
+    margin-bottom: 15px;
+}
+
 .container__filtro {
     width: 75%;
     margin: 0 auto;
@@ -11,7 +15,7 @@
     scrollbar-width: none;
 }
 
-.container__filtro button {
+.container__filtro input {
     scroll-snap-align: start;
     width: max-content;
     padding: .5rem 1.5rem;
@@ -22,8 +26,35 @@
     font-size: 1rem;
 }
 
-.container__filtro button:hover {
+.container__filtro input:hover {
     background-color: var(--color-primary);
+    cursor: pointer;
+}
+
+.container__filtro input.active {
+    background-color: var(--color-primary);
+}
+
+.filter {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 15px;
+}
+
+.filter .filter-value {
+    border: 2px solid var(--color-primary-variant);
+    border-radius: 15px;
+    padding: .1rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.filter-value .delete-icon {
+    font-size: 1.5rem;
     cursor: pointer;
 }
 
