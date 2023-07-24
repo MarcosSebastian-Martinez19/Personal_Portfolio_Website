@@ -1,8 +1,7 @@
 import React from "react";
 import "./Experience.css";
 import { FaHtml5, FaCss3Alt, FaBootstrap, FaSass, FaReact, FaNpm, FaGitAlt, FaGithub } from "react-icons/fa";
-import { SiJavascript, SiTypescript, SiAngular, SiNetlify, SiLinux, SiVisualstudiocode } from "react-icons/si";
-
+import { SiJavascript, SiTypescript, SiAngular, SiNetlify, SiLinux, SiVisualstudiocode, SiCsharp, SiWindows, SiNodedotjs } from "react-icons/si";
 export const Experience = () => {
     return (
         <section>
@@ -49,6 +48,12 @@ export const Experience = () => {
                         </article>
                         <article className="experience__details">
                             <div>
+                            <SiNodedotjs className="experience__details-icon" />
+                            <h4>Node JS</h4>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <div>
                             <FaReact className="experience__details-icon" />
                             <h4>React JS</h4>
                             </div>
@@ -57,6 +62,12 @@ export const Experience = () => {
                             <div>
                             <SiAngular className="experience__details-icon" />
                             <h4>Angular</h4>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <div>
+                            <SiCsharp className="experience__details-icon" />
+                            <h4>C#</h4>
                             </div>
                         </article>
                         <article className="experience__details">
@@ -93,6 +104,12 @@ export const Experience = () => {
                             <div>
                             <SiLinux className="experience__details-icon" />
                             <h4>Linux</h4>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <div>
+                            <SiWindows className="experience__details-icon" />
+                            <h4>Windows</h4>
                             </div>
                         </article>
                     </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from "../../assets/CV-MarcosMartinez-FrontEndDeveloper.pdf";
+import CV from "../../assets/CV-MarcosMartinez.pdf";
 import "./About.css";
 import { FiDownload } from "react-icons/fi"
 
